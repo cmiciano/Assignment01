@@ -188,13 +188,35 @@ console.log(x)
 /*
 let var1 = 5
 let var2 = 5
-alert(x == 5 && y == 5)
+
+document.write("Var1 is equal to " + var1 + "\n")
+document.write("<br>")
+document.write("Var2 is equal to " + var2)
+document.write("<br>")
+document.write("Is Var1 equal to Var2? " + (var1 == 5 && var2 == 5))
+
+console.log(var1 == 5 && var2 == 5)
+
 */
 
 // STEP 22
+
+
 /*
+
 let var3 = 5
 let var4 = '5'
 let var5 = 3 + 2
+
+document.write("Var3 is equal to " + var3 + " and is of type " + typeof(var3))
+document.write("<br>") 
+document.write("Var4 is equal to " + var4 + " and is of type " + typeof(var4))
+document.write("<br>")
+document.write("Var5 is equal to " + var5 + " and is of type " + typeof(var5))
+document.write("<br>")
+
+document.write("The expression (Var3 equal in value and type to var4) OR (does var5 NOT EQUAL 5) returns " +  (var3 === var4) || (var5 != 5))
 console.log( (var3 === var4) || (var5 != 5))
+
+
 */
