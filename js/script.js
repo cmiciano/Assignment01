@@ -12,16 +12,21 @@ let myLibraryFunction // let MyLibrary-function
 // STEP 2
 /*
 2 // Numeric literal expression
-‘Hi’ // string literal expression
-True // Boolean literal expression
-Null // null literal expression
+'Hi' // string literal expression
+true // Boolean literal expression
+null // null literal expression
 */
 
 // STEP 3
 
 /*
-let exp1 = 2 += 2
-let exp2 = 30 % 4
+let exp1 = (1 + 3) - (4 / 4) + 9
+console.log(exp1)
+
+let exp2 = 8 * (2 % 6) - 5
+console.log(exp2)
+
+
 */
 
 // STEP 4
@@ -48,7 +53,7 @@ const strFirstName = ‘Charlene’
 var numZipCode = 91910
 let boolContact = true 
 
-// Second way declaring and assigining all in one line
+// Second way declaring and assigning all in one line
 let strFirstName = 'Charlene', numZipCode = 91910, boolContact = true
 
 // Third way declaring on one line then assigning on the next line
@@ -84,7 +89,7 @@ console.log(secondVar) //outputs 3, coerces boolean to number and adds them
 */
 
 // STEP 8
-// No string is not valid, you need to escape the quotation marks and the apostrophe to have it print correctly
+// No the string is not valid, you need to escape the quotation marks and the apostrophe to have it print correctly
 /*
 let someString = 'Who once said, \"Only two things are infinite, the universe and human stupidity, and I\'m not sure about the former.\"'
 console.log(someString)
@@ -93,7 +98,7 @@ console.log(someString)
 
 // STEP 9
 /*
-let nullVar = null ??
+let nullVar = null 
 console.log(nullVar)
 
 let undefVar = undefined;
@@ -143,6 +148,13 @@ let course = 'JavaScript'
 alert('Hello ' + myName + ', welcome to the ' + course + ' class!')
 */
 
+// Step 14
+/*
+let myName = 'Charlene Miciano'
+let course = 'JavaScript'
+alert('Hello ' + myName + '.' + "\n" + 'Welcome to the ' + course + ' class!')
+*/
+
 // Step 15
 /*
 let myNamePrompt = window.prompt('Please enter your name')
@@ -184,7 +196,8 @@ let x = 20 % 3
 console.log(x)
 */
 
-// STEP 21 // app evaluates to true ?? should it be an actual application or just a console print
+// STEP 21 
+// app evaluates to true, should it be an actual application or just a console print
 /*
 let var1 = 5
 let var2 = 5
@@ -196,14 +209,14 @@ document.write("<br>")
 document.write("Is Var1 equal to Var2? " + (var1 == 5 && var2 == 5))
 
 console.log(var1 == 5 && var2 == 5)
-
 */
 
+
 // STEP 22
+// app evaluates to false
 
 
 /*
-
 let var3 = 5
 let var4 = '5'
 let var5 = 3 + 2
@@ -217,6 +230,5 @@ document.write("<br>")
 
 document.write("The expression (Var3 equal in value and type to var4) OR (does var5 NOT EQUAL 5) returns " +  (var3 === var4) || (var5 != 5))
 console.log( (var3 === var4) || (var5 != 5))
-
 
 */
